@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Zenya Hsu | Final Project About Me Page</title>
+	<link rel="stylesheet" href="styles.css">
+
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+	#about-container{
+		width:900px;
+		margin:0 auto;
+	}
+	#about{
+		padding-top:20px;
+		width:500px;
+		float:left;
+	}
+	#about h2,h3,p{
+		font-family: 'Playfair Display', serif;
+	}
+	#about h2{
+		font-size:30px;
+	}
+	#about h3,p{
+		font-size:20px;
+	}
+	#resume-container{
+		width:605px;
+		margin:0 auto;
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	#resume{
+		width:600px;
+		border:3px #c3836d dashed;
+	}
+	#portrait{
+		width:400px;
+		float:left;
+		padding-top:20px;
+	}
+	#form{
+		border:3px dashed #f7e6d4;
+		width:600px;
+		margin:0 auto;
+		background-color:#aaaf99;
+		margin-bottom:30px;
+	}
+	.form-row{
+		padding:10px;
+		font-family:sans-serif;
+	}
+	.submit-btn{
+		width:100px;
+		background-color:#f7e6d4;
+	}
+	.submit-btn:hover{
+		background-color:#c3836d;
+	}
+	.submit-btn a{
+		text-decoration:none;
+		color:black;
+	}
+	#form h2{
+		text-align:center;
+		font-family:"Playfair Display",serif
+	}
+	#buttons{
+		width:205px;
+		margin:0 auto;
+		padding-bottom:10px;
+	}
+	#question{
+		margin-left:50px;
+		width:480px;
+		height:80px;
+		margin-top:5px;
+	}
+</style>
+
+</head>
+<body>
+
+<div id="navbar">
+<a href="index.html"><h1>zenya</h1></a>
+
+<div id="nav">
+	<a href="index.html">home</a>
+	<a href="aboutme.html">about me</a>
+	<a href="work.html">work</a>
+</div>
+<div class="clearfloat"></div>
+</div>
+
+<div id="about-container">
+<div id="about">
+	<h3>Hi there!</h3>
+	<h2>My name is <span style="color:#c3836d;">Zenya Hsu</span>.</h2>
+	<p>As a psychology major, I hope to intersect my work in web development with improving the human experience.</p>
+	<p>My passions consist of community service, public policy advocacy, and helping individuals with developmental and intellectual disabilities.</p>
+</div>
+
+<img id="portrait" src="img/portrait.png" alt="Portrait">
+<div class="clearfloat"></div>
+</div>
+
+<div id="resume-container">
+<img id="resume" src="img/resume.png" alt="Resume">
+</div>
+
+<div id="form">
+<form action="submit.html">
+	<h2>contact form:</h2>
+	<div class="form-row">
+		<label class="main-label" for="name">name:</label>
+		<input id="name" type="text" placeholder="first, last" required>
+	</div>
+
+	<div class="form-row">
+		<label class="main-label" for="email">email:</label>
+		<input id="email" type="email" placeholder="janedoe@gmail.com" required>
+	</div>
+
+	<div class="form-row">
+		<label class="main-label" for="question">feel free to leave a message!</label><br>
+		<textarea id="question" placeholder="enter your message here"></textarea>
+	</div>
+	
+	<div class="form-row">
+	<div id="buttons">
+		<button class="submit-btn" type="submit">submit!</button>
+		<button class="submit-btn" type="reset">reset</button>
+	</div>
+	</div>
+</form>
+</div>
+
+</body>
+</html>

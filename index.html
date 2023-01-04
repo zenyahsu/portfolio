@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Zenya Hsu | Final Project Homepage</title>
+	<link rel="stylesheet" href="styles.css">
+
+	<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+
+<style>
+	.blobs{
+		width:500px;
+		float:left;
+		position:relative;
+		left:50px;
+		bottom:20px;
+	}
+	#intro{
+		width:400px;
+		float:left;
+		position:absolute;
+		padding-left:160px;		
+	}
+	#intro p,h2{
+		width:400px;
+		font-family:sans-serif;
+		padding:40px 20px 20px 0px;
+		font-size: 20px;
+	}
+	#intro h2{
+		padding-top:0px;
+		font-size:32px;
+		font-family: 'Playfair Display', serif;
+	}
+	.flexslider .slides img {
+		height:300px;
+		width:100%;
+		margin:0 auto;
+	}
+	#flexslider-container{
+		width:40%;
+		height:auto;
+		float:right;
+		margin-right:160px;
+		margin-top:50px;
+	}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div id="navbar">
+<a href="index.html"><h1>zenya</h1></a>
+
+<div id="nav">
+	<a href="index.html">home</a>
+	<a href="aboutme.html">about me</a>
+	<a href="work.html">work</a>
+</div>
+<div class="clearfloat"></div>
+</div>
+
+<img class="blobs" src="img/blobs.png" alt="Background Blob">
+
+<div id="intro">
+	<p>I am a UX designer that is pursuing a Psychology B.A. at the University of Southern California.</p>
+	<h2>My designs and film photos are intended to create calming, impactful user experiences.</h2>
+</div>
+
+<div id="flexslider-container">
+<div class="flexslider">
+  <ul class="slides">
+  	<li>
+      <img src="work/psychology.jpeg" alt="Poster Personality">
+    </li>
+    <li>
+      <img src="work/lab06.jpeg" alt="lab06">
+    </li>
+    <li>
+      <img src="work/book-cover.jpeg" alt="Reworked Book Cover">
+    </li>
+    <li>
+      <img src="work/bday.jpg" alt="Birthday Card">
+    </li>
+    <li>
+      <img src="work/lab07.jpeg" alt="lab07">
+    </li>
+  </ul>
+</div>
+</div>
+<div class="clearfloat"></div>
+
+<hr>
+
+<div id="bottom-nav">
+	<p><strong>menu</strong></p>
+	<a href="index.html">home</a><br>
+	<a href="about-me.html">about me</a><br>
+	<a href="work.html">work</a>
+</div>
+
+<div id="logo-container">
+<img id="logo" src="img/logo.png" alt="Logo">
+<a id="logo-home" href="index.html">home</a>
+</div>
+
+<div id="friends">
+	<p><strong>let's be friends!</strong></p>
+	<a href="mailto:zhsu@usc.edu">email</a><br>
+	<a href="https://www.linkedin.com/in/zenyahsu" target="_blank">LinkedIn</a><br>
+	<a href="https://www.instagram.com/zenyahsu/" target="_blank">Instagram</a>
+</div>
+
+
+
+
+<!--flexslider JS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	<script src="flexslider/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		  $(window).load(function() {
+		    $('.flexslider').flexslider();
+		  });
+	</script>
+
+</body>
+</html>
