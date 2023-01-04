@@ -1,2 +1,2 @@
 # portfolio
-https://www.zenyahsu.com
+https://zenyahsu.com
